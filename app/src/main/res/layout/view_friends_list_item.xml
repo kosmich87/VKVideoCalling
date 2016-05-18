@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <kz.kkurtukov.vkvideocalling.views.CircularNetworkImageView
+        android:id="@+id/view_friends_list_item_photo"
+        android:src="@drawable/no_photo"
+        android:layout_margin="@dimen/default_margin"
+        android:layout_width="@dimen/photo_size"
+        android:layout_height="@dimen/photo_size"
+        android:layout_centerVertical="true" />
+
+    <kz.kkurtukov.vkvideocalling.views.OnlineMobileImageView
+        android:id="@+id/view_friends_list_item_status"
+        android:background="@drawable/selector_status_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/view_friends_list_item_photo"
+        android:layout_alignRight="@+id/view_friends_list_item_photo"
+        android:layout_alignEnd="@+id/view_friends_list_item_photo" />
+
+    <kz.kkurtukov.vkvideocalling.views.RobotoBoldTextView
+        android:id="@+id/view_friends_list_item_full_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/default_margin"
+        android:layout_toRightOf="@+id/view_friends_list_item_photo"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/view_friends_list_item_may_call" />
+
+    <ImageView
+        android:id="@+id/view_friends_list_item_may_call"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/default_margin"
+        android:background="@drawable/may_call"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true" />
+
+</RelativeLayout>

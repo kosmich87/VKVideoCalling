@@ -1,0 +1,12 @@
+<resources>
+    <integer name="com_vk_sdk_AppId">5267631</integer>
+
+    <string name="app_name">VK Video Calling</string>
+    <string name="title_friend_list">Friends</string>
+    <string name="title_friend_detail">Friend Detail</string>
+    <string name="friends_list_failed">Ошибка загрузки списка друзей</string>
+    <string name="empty_list">Empty list</string>
+
+    <string name="host">https://peaceful-bastion-81526.herokuapp.com</string>
+    <string name="port">3000</string>
+</resources>
